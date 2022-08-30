@@ -24,9 +24,7 @@ public class wk1VarsAndOps {
 		System.out.println("Customers first name is:" + " " + customersFirstName);
 		System.out.println("My address is:" + " " + streetAddress);
 		
-		int num1 = 5;
-		int num2 = 2;
-		System.out.println(num1 / num2);
+	
 		
 		
 	}
