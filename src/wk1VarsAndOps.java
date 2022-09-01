@@ -24,7 +24,32 @@ public class wk1VarsAndOps {
 		System.out.println("Customers first name is:" + " " + customersFirstName);
 		System.out.println("My address is:" + " " + streetAddress);
 		
-	
+		// a customer booked 2 plane seats, remove 2 seats from the available seats variable
+		availablePlaneSeats = availablePlaneSeats -2;
+		availablePlaneSeats -= 2;
+		System.out.println(availablePlaneSeats);
+		
+		//impulse candy bar purchase, add 2.15 to the grocery total
+		//costOfGroceries = costOfGroceries -1;
+		costOfGroceries += 2.15;
+		System.out.println(costOfGroceries);
+		
+		//birth certificate was printed incorrectly, change the middle initial to something else
+		middleInitial = 'T';
+		System.out.println(middleInitial);
+		
+		// the season has changed, update the hot outside var to be opposite of what it was
+		isHostOutside = !isHostOutside;
+		System.out.println(isHostOutside);
+		
+		//create a new var called full name using the customers first, the middle initial, and a last name of your choice
+		String fullName = customersFirstName + " " + middleInitial + " Charter";
+		System.out.println(fullName);
+		
+		//print a line to the console that introduces the customer and says they live at the address variable
+		System.out.println(" Hi, my name is " + fullName + " and I live at " + streetAddress + ".");
+				
+		
 		
 		
 	}
