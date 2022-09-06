@@ -49,6 +49,22 @@ public class wk1VarsAndOps {
 		//print a line to the console that introduces the customer and says they live at the address variable
 		System.out.println(" Hi, my name is " + fullName + " and I live at " + streetAddress + ".");
 				
+		//operator performs actions on operands
+		//+ - * /
+		int age = 34 * 2;
+		System.out.println(age);
+		boolean isAge30 = age == 30;
+		System.out.println(isAge30);
+		
+		System.out.println(age == 68);
+		
+		age = age + 1;
+		System.out.println(age);
+		
+		int num1 = 6;
+		int num2 = 3;
+		double answer1 = num1 / num2;
+		System.out.println(num1 % num2);
 		
 		
 		
